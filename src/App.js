@@ -12,13 +12,13 @@ const App = () => {
     const isToRight = newX > position.x;
       setTimeout(() => {
         setPosition({ x: newX, y: newY });
-      }, 500); 
+      }, 2000); 
 
    
     const distanceX = newX - position.x;
     const distanceY = newY - position.y;
 
-    const duration = 500;
+    const duration = 2000;
     const steps = 100; 
 
 
